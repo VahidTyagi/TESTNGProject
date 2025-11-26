@@ -10,6 +10,7 @@ public class HomeLoan {
     public void WebHomeLoan(String url) {
         System.out.println("Running WebHomeLoan Test");
         System.out.println("Home Loan URL = " + url);
+        System.out.println("Push to code");
     }
 
     @Test
