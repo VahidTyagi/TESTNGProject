@@ -11,6 +11,7 @@ public class HomeLoan {
         System.out.println("Running WebHomeLoan Test");
         System.out.println("Home Loan URL = " + url);
         System.out.println("Push to code");
+        System.out.println("direct from write github");
     }
 
     @Test
