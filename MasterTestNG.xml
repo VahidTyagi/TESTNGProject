@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- 
+	THIS XML CONTAINS ALL TYPES OF RUN OPTIONS:
+	1. Class level execution
+	2. Method level Include / Exclude
+	3. Wildcard includes (Mobile.*)
+	4. Package level run
+	5. Group level run
+	6. Parallel execution
+	7. Parameter passing from XML
+	8. Disable a test
+	9. Multiple test blocks
+-->
+
+<suite name="Complete Test Suite" verbose="1" parallel="false" thread-count="1">
+
+	<!-- ======================= EXAMPLE 1: CLASS LEVEL RUN ======================= -->
+	<test name="Class Level Execution">
+		<classes>
+			<!-- Run complete class (all test methods) -->
+			<class name="com.demo.tests.Test1"/>
+		</classes>
+	</test>
+
+
+	<!-- ======================= EXAMPLE 2: METHOD LEVEL RUN ===================== -->
+	<test name="Method Level Execution">
+		<classes>
+			<class name="com.demo.tests.Test2">
+				<methods>
+					<!-- RUN ONLY specific method -->
+					<include name="loginTest"/>
+
+					<!-- EXCLUDE specific method -->
+					<exclude name="logoutTest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 3: WILDCARD INCLUDE RUN ===================== -->
+	<test name="Wildcard Execution">
+		<classes>
+			<class name="com.demo.tests.MobileTests">
+				<methods>
+					<!-- Run all test cases starting with "Mobile" -->
+					<!-- Example: MobileLogin, MobileSignup, MobileRecharge -->
+					<include name="Mobile.*"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 4: PACKAGE LEVEL RUN ======================== -->
+	<test name="Package Level Execution">
+		<packages>
+			<!-- Run all classes inside package -->
+			<package name="com.demo.tests"/>
+		</packages>
+	</test>
+
+
+	<!-- =================== EXAMPLE 5: GROUP EXECUTION ========================== -->
+	<!-- 
+		Groups are defined inside @Test annotation in your java class.
+		Example: @Test(groups = {"smoke"})
+	-->
+	<test name="Group Execution">
+		<groups>
+			<run>
+				<!-- Run only smoke tests -->
+				<include name="smoke"/>
+
+				<!-- Skip regression group -->
+				<exclude name="regression"/>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.demo.tests.GroupTest"/>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 6: PARALLEL EXECUTION ======================= -->
+	<!-- 
+		parallel = "methods" => all test methods run in parallel
+		parallel = "classes" => each class runs parallel
+		parallel = "tests"   => each <test> block runs parallel
+		thread-count = number of parallel threads  
+	-->
+	<test name="Parallel Execution" parallel="methods" thread-count="3">
+		<classes>
+			<class name="com.demo.tests.Parallel1"/>
+			<class name="com.demo.tests.Parallel2"/>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 7: PARAMETER PASSING ======================== -->
+	<!-- Passing values to @Parameters({"URL","username"}) -->
+	<test name="Parameter Execution">
+		<parameter name="URL" value="https://google.com"/>
+		<parameter name="username" value="VahidTyagi"/>
+
+		<classes>
+			<class name="com.demo.tests.ParameterTest"/>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 8: DISABLE A TEST ============================ -->
+	<!-- setting enabled="false" will skip a test block -->
+	<test name="Disabled Test" enabled="false">
+		<classes>
+			<class name="com.demo.tests.DisabledTest"/>
+		</classes>
+	</test>
+
+
+	<!-- =================== EXAMPLE 9: MULTIPLE TEST BLOCKS ===================== -->
+	<test name="Car Loan Tests">
+		<classes>
+			<class name="com.demo.tests.CarLoan"/>
+		</classes>
+	</test>
+
+	<test name="Home Loan Tests">
+		<classes>
+			<class name="com.demo.tests.HomeLoan"/>
+		</classes>
+	</test>
+
+</suite>

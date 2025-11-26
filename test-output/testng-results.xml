@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="45" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-16T13:20:19 IST" name="Loan Department" finished-at="2025-11-16T13:20:20 IST" duration-ms="817">
+    <groups>
+      <group name="web">
+        <method signature="Test2.web01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="web01" class="com.demo.tests.Test2"/>
+        <method signature="Test2.web02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="web02" class="com.demo.tests.Test2"/>
+        <method signature="Test2.web03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="web03" class="com.demo.tests.Test2"/>
+      </group> <!-- web -->
+      <group name="regression">
+        <method signature="Test2.test11()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test11" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test12()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test12" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test13()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test13" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test14()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test14" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test15()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test15" class="com.demo.tests.Test2"/>
+      </group> <!-- regression -->
+      <group name="mobile">
+        <method signature="Test2.mobile01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="mobile01" class="com.demo.tests.Test2"/>
+        <method signature="Test2.mobile02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="mobile02" class="com.demo.tests.Test2"/>
+        <method signature="Test2.mobile03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="mobile03" class="com.demo.tests.Test2"/>
+      </group> <!-- mobile -->
+      <group name="smoke">
+        <method signature="Test2.test01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test01" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test02" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test03" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test04()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test04" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test05()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test05" class="com.demo.tests.Test2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Test2.test06()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test06" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test07()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test07" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test08()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test08" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test09()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test09" class="com.demo.tests.Test2"/>
+        <method signature="Test2.test10()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="test10" class="com.demo.tests.Test2"/>
+      </group> <!-- sanity -->
+      <group name="api">
+        <method signature="Test2.api02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="api02" class="com.demo.tests.Test2"/>
+        <method signature="Test2.api03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="api03" class="com.demo.tests.Test2"/>
+        <method signature="Test2.api01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" name="api01" class="com.demo.tests.Test2"/>
+      </group> <!-- api -->
+    </groups>
+    <test started-at="2025-11-16T13:20:19 IST" name="Personal Loan" finished-at="2025-11-16T13:20:20 IST" duration-ms="632">
+      <class name="com.demo.tests.HomeLoan">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:com.demo.tests.HomeLoan@c730b35]" started-at="2025-11-16T13:20:20 IST" name="APILoginHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:com.demo.tests.HomeLoan@c730b35]" started-at="2025-11-16T13:20:20 IST" name="MobileHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method signature="WebHomeLoan(java.lang.String)[pri:0, instance:com.demo.tests.HomeLoan@c730b35]" started-at="2025-11-16T13:20:20 IST" name="WebHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+      </class> <!-- com.demo.tests.HomeLoan -->
+      <class name="com.demo.tests.Test2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:19 IST" name="beforeTest" finished-at="2025-11-16T13:20:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeClass" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="api01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="api01" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="api02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="api02" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api02 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="api03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="api03" finished-at="2025-11-16T13:20:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api03 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="dataProviderTest" data-provider="loginData" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="dataProviderTest" data-provider="loginData" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="dataProviderTest" data-provider="loginData" finished-at="2025-11-16T13:20:20 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="fastTest()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="fastTest" finished-at="2025-11-16T13:20:20 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fastTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="login" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dashboard()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="dashboard" finished-at="2025-11-16T13:20:20 IST" depends-on-methods="com.demo.tests.Test2.login" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logout()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="logout" finished-at="2025-11-16T13:20:20 IST" depends-on-methods="com.demo.tests.Test2.login, com.demo.tests.Test2.dashboard" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="mobile01" finished-at="2025-11-16T13:20:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="mobile02" finished-at="2025-11-16T13:20:20 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile02 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="mobile03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="mobile03" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile03 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="parameterTest(java.lang.String)[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="parameterTest" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method parameterTest but has not been marked @Optional or defined
+in C:\Users\vahid.tyagi-ns\eclipse-workspace\TestNGProject\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method parameterTest but has not been marked @Optional or defined
+in C:\Users\vahid.tyagi-ns\eclipse-workspace\TestNGProject\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test01" finished-at="2025-11-16T13:20:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test02" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test03" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test04()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test04" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test05()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test05" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test06()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test06" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test07()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test07" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test08()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test08" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test09()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test09" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test10()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test10" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test11()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test11" finished-at="2025-11-16T13:20:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test12()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test12" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test13()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test13" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test14()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test14" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test15()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test15" finished-at="2025-11-16T13:20:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test18()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test18" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testException()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="testException" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.demo.tests.Test2.testException(Test2.java:190)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testException -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testRepeated()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="testRepeated" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeated -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRepeated()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="testRepeated" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeated -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRepeated()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="testRepeated" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeated -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="web01()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="web01" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web01 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="web02()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="web02" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web02 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="web03()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="web03" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web03 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test16()[pri:1, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test16" finished-at="2025-11-16T13:20:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="beforeMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test17()[pri:2, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="test17" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterClass" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterMethod" finished-at="2025-11-16T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterTest" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo.tests.Test2 -->
+      <class name="com.demo.tests.Test1">
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.Test1@55b699ef]" started-at="2025-11-16T13:20:19 IST" name="sampleTest" finished-at="2025-11-16T13:20:20 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLoan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- com.demo.tests.Test1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-11-16T13:20:20 IST" name="Car Loan" finished-at="2025-11-16T13:20:20 IST" duration-ms="23">
+      <class name="com.demo.tests.WebLogin">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:com.demo.tests.WebLogin@2925bf5b]" started-at="2025-11-16T13:20:20 IST" name="APILoginHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:com.demo.tests.WebLogin@2925bf5b]" started-at="2025-11-16T13:20:20 IST" name="MobileHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method signature="WebHomeLoan(java.lang.String)[pri:0, instance:com.demo.tests.WebLogin@2925bf5b]" started-at="2025-11-16T13:20:20 IST" name="WebHomeLoan" finished-at="2025-11-16T13:20:20 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[global-loan-url.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+      </class> <!-- com.demo.tests.WebLogin -->
+      <class name="com.demo.tests.Test2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:19 IST" name="beforeSuite" finished-at="2025-11-16T13:20:19 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.demo.tests.Test2@3c46e67a]" started-at="2025-11-16T13:20:20 IST" name="afterSuite" finished-at="2025-11-16T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demo.tests.Test2 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

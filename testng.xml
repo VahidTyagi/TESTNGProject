@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- ===================================================================
+     🔵 MASTER SUITE — Loan Department Automation Suite
+     =================================================================== -->
+<suite name="Loan Department" parellel="tests" thread-count="10" verbose="2">
+
+<listeners>
+	<listener class-name = "com.demo.tests.Listeners" />
+		
+	
+
+</listeners>
+
+    <!-- ===============================================================
+         🔵 SUITE-LEVEL PARAMETERS (Available for all tests)
+         =============================================================== -->
+    <parameter name="URL" value="global-loan-url.com" />
+    <parameter name="APIKey_username" value="GLOBAL-API-123" />
+
+    <!-- ===================================================================
+         🔵 PERSONAL LOAN TESTS
+         =================================================================== -->
+    <test name="Personal Loan">
+
+        <!-- Parameters for this <test> block only -->
+        <parameter name="URL" value="personalLoan.com" />
+        <parameter name="APIKey_username" value="123456" />
+
+        <classes>
+
+            <!-- Run only selected method from Test1 -->
+            <class name="com.demo.tests.Test1">
+                <methods>
+                    <include name="sampleTest"/>
+                    <!-- You can add more below -->
+                    <!-- <include name="sampleTest2"/> -->
+                </methods>
+            </class>
+
+            <!-- Run entire Test2 class -->
+            <class name="com.demo.tests.Test2"/>
+
+            <!-- Run entire HomeLoan class -->
+            <class name="com.demo.tests.HomeLoan"/>
+
+        </classes>
+    </test>
+
+
+    <!-- ===================================================================
+         🔵 CAR LOAN TESTS
+         =================================================================== -->
+    <test name="Car Loan">
+
+        <classes>
+
+            <class name="com.demo.tests.WebLogin">
+                <methods>
+
+                    <!-- ======================================================
+                         🔵 XML COMMENTS — IMPORTANT NOTES
+                         ======================================================
+
+                         1. <exclude> → skip a specific testCase / multiple testCases  
+                         2. <include> → run a specific testCase / selected testCases  
+                         
+                         3. Run only MOBILE related tests:
+                            <include name="Mobile.*"/>
+
+                         4. Run all testCases at package level:
+                            <packages>
+                                <package name="com.demo.tests" />
+                            </packages>
+
+                         5. If you need DB cleanup before every run → use @BeforeSuite
+
+                    ============================================================ -->
+
+                    <!-- Excluding MobileLoginCarLoan test -->
+                    <exclude name="MobileLoginCarLoan"/>
+
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+</suite>

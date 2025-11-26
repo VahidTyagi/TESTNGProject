@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="APIKey_username" value="GLOBAL-API-123"/>
+  <parameter name="URL" value="global-loan-url.com"/>
+  <listeners>
+    <listener class-name="com.demo.tests.Listeners"/>
+  </listeners>
+  <test thread-count="10" name="Personal Loan(failed)" verbose="2">
+    <parameter name="APIKey_username" value="123456"/>
+    <parameter name="URL" value="personalLoan.com"/>
+    <classes>
+      <class name="com.demo.tests.Test2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="parameterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.demo.tests.Test2 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
